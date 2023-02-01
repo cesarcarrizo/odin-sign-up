@@ -160,3 +160,80 @@ h1 {
   font-family: "Norse Bold", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 64px;
 }
+
+.content {
+  background-color: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text > p {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.main-text p:first-child {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.main-text p:last-child {
+  padding-bottom: 25px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.form-grid {
+  background-color: #ffffff;
+  padding: 20px 100px 40px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.form-grid h2 {
+  grid-column: 1/3;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30%;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.input > input {
+  padding: 10px;
+  border-color: #f3f4f6;
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+
+.input > label {
+  padding-bottom: 2px;
+}
+
+.cta {
+  padding: 40px 100px 0px 100px;
+}
+
+button {
+  border: none;
+  background-color: #596d48;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  font-size: large;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
