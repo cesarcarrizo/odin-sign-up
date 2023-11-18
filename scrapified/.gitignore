@@ -1,0 +1,40 @@
+# Scrapy-specific files and directories
+__pycache__/
+.scrapy/
+.scrapyenv/   # Assuming you use a virtual environment named .scrapyenv
+
+# Logs
+*.log
+*.log.*
+log/
+logs/
+
+# Scraped data (if not storing in version control)
+*.csv
+*.json
+*.jl
+*.jsonl
+*.xml
+*.txt
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and dependency files
+.env
+venv/
+env/
+env.bak/
+.env.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System or IDE-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore scrapy.cfg if project is bound to a specific project
+# Uncomment this if your Scrapy project isn't intended to be reused as a library
+# scrapy.cfg
